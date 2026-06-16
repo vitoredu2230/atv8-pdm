@@ -1,7 +1,6 @@
 import { colors } from "@/constants/colors";
 import Feather from "@expo/vector-icons/Feather";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import React from "react";
 import { StyleSheet, View } from "react-native";
 import Icon from "../icon";
 

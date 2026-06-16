@@ -1,7 +1,6 @@
 import { colors } from "@/constants/colors";
 import { spacing } from "@/constants/spacing";
 import { Album } from "@/mocks/albums";
-import React from "react";
 import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 
 type CarousselProps = {

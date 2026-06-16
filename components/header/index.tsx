@@ -2,7 +2,6 @@ import { colors } from "@/constants/colors";
 import { spacing } from "@/constants/spacing";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import Feather from "@expo/vector-icons/Feather";
-import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function Header() {
