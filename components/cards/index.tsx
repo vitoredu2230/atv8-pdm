@@ -3,8 +3,18 @@ import Card from "./card";
 
 export default function Cards() {
   return (
-    <View>
-      <Card />
+    <View style={styles.container}>
+      <View>
+        <Card />
+        <Card />
+        <Card />
+      </View>
+
+      <View>
+        <Card />
+        <Card />
+        <Card />
+      </View>
     </View>
   );
 }
@@ -15,4 +25,5 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
   },
+  divisor: {},
 });
